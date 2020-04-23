@@ -8,7 +8,7 @@ project(
     ]
 )
 
-inc = include_directories('include')
+inc = [include_directories('include')]
 
 subdir('include')
 subdir('src')
