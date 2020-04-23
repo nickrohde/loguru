@@ -16,7 +16,7 @@ libloguru = library(
     version      : '2.1.0',
     soversion    : '0',
     install      : true,
-    include_directories : inc
+    include_directories : inc,
     dependencies : [thread_dep, libdl_dep]
 )
 
