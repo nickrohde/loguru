@@ -16,6 +16,8 @@ libdl_dep = cxx.find_library(
 )
 thread_dep = dependency('threads')
 
+install_headers('loguru.hpp')
+
 loguru_sources = [
     'loguru.cpp'
 ]
