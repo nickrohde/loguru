@@ -15,7 +15,7 @@ libloguru = library(
     loguru_sources,
     version      : '2.1.0',
     soversion    : '0',
-    install      : true,, 
+    install      : true,
     include_directories : inc
     dependencies : [thread_dep, libdl_dep]
 )
